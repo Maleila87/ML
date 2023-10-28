@@ -1,0 +1,57 @@
+
+html{
+    /* width: 150px; */
+}
+
+body{
+    background-color: aliceblue;
+}
+
+table{
+    border-color: black,solid,1em;
+    border-collapse: collapse;
+    
+}
+
+/* suisse americain*/
+td{
+    width: 20px;
+    height: 20px;
+    
+}
+.b{
+    background-color: blue;
+    font: bold white;
+}
+.cube-r{
+    background-color: red;
+}
+.cube-b{
+    background-color: white;
+}
+/* france */
+.blue{
+
+    width: 40px;
+    height: 100px;
+    background-color: blue;
+
+}
+.white{
+    width: 40px;   
+    height: 100px;
+    background-color: white;
+}
+.red{
+    width: 40px;
+    height: 100px;
+    background-color: red;
+}
+
+.rouge{
+    display: block;
+    background-color: red;
+    width: 43px;  
+    height:109px; 
+}
+

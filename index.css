@@ -4,16 +4,22 @@ div {
     align-items: center;
 }
 
+nav{
+    position: relative;
+    display: inline-block;
+}
 ul{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    list-style: none;
+
     display: inline;
-    border: 1;
+}  
+
+li{
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width:12Px;
+    z-index: 1;
+    
 }
 #inlineFrameExample{
     iframe {
@@ -22,6 +28,8 @@ ul{
       }
       
 }
+
 figure{
     margin: auto;
+
 }
